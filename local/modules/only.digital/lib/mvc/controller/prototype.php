@@ -16,12 +16,6 @@ class Prototype
     protected $request = null;
 
     /**
-     * View
-     *
-     */
-    protected $view = null;
-
-    /**
      * Параметры
      *
      * @var array

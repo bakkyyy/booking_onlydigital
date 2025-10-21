@@ -18,6 +18,9 @@ class Booking
     private DateTime $end;
 
     /**
+     * @param int $userId
+     * @param DateTime $start
+     * @param DateTime $end
      * @throws LoaderException
      */
     public function __construct(int $userId, DateTime $start, DateTime $end)
@@ -31,7 +34,7 @@ class Booking
     }
 
     /**
-     * Возвращает незанятые автомобили для пользователя, в зависимости от комфорту
+     * Возвращает незанятые автомобили для пользователя, в зависимости от комфорта
      * @return array
      */
     public function getCars(): array

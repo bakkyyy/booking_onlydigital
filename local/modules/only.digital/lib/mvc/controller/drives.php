@@ -4,12 +4,14 @@ namespace OnlyDigital\Mvc\Controller;
 
 use Bitrix\Main\Engine\Response\Json;
 use Bitrix\Main\Type\DateTime;
-use Bitrix\Main\UserTable;
 use OnlyDigital\Iblock\Booking;
 
 
 class Drives extends Prototype
 {
+    /**
+     * @return Json
+     */
     public function getDrivesInfoAction()
     {
         global $USER;
@@ -42,7 +44,11 @@ class Drives extends Prototype
         ]);
     }
 
-    private function jsonError($message)
+    /**
+     * @param $message
+     * @return Json
+     */
+    private function jsonError($message): Json
     {
         return new Json(['status' => 'error', 'message' => $message]);
     }
