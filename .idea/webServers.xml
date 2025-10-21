@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5ed2d152-649e-4cb7-950a-62188bcbfb57" name="OnlyDigital">
+        <fileTransfer rootFolder="/var/www/u3300991/data/www/u3300991.isp.regruhosting.ru" accessType="SFTP" host="31.31.197.13" port="22" sshConfigId="33ab721d-779c-489b-b14a-34e289b19b5a" sshConfig="u3300991@31.31.197.13:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="200000" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
